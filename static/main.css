@@ -1,0 +1,33 @@
+
+/* class from home.html */
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    color:rgb(41, 41, 41);
+    border-radius: 10px 0 20px 0;
+    margin: 15px 0 0 0;
+    padding: 20px;
+    overflow: scroll;
+    max-height: 550px;
+}
+
+.article-content {
+    color: chocolate;
+}
+
+.article-data {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.post {
+    padding: 10px 15px;
+    box-shadow: 1px 5px 5px 5px rgb(51, 51, 51);
+    border-radius: 0px 1px 5px 5px;
+}
+.post:hover {
+    transform: scale(1.01);
+}
